@@ -1,0 +1,72 @@
+.container {
+	/* //max-width: 1000px; */
+  margin-top: 40px;
+	margin-right:auto;
+	margin-left:auto;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+  color: var(--color1);
+}
+
+.table {
+	width:80vw;
+	border:1px solid var(--color1);
+}
+
+.table-header {
+	display: flex;
+	width: 100%;
+	background-color: var(--color1);
+  color: var(--color5);
+  justify-content:center;
+	align-items:center;
+	padding: 0;
+  margin: 0;
+}
+
+.table-row {
+	display:flex;
+	width:100%;
+  justify-content:center;
+	align-items:center;
+  border-bottom:1px dashed var(--color1);
+	padding: 0;
+  margin: 0;
+}
+
+.table-dataTop, .header__itemTop, .table-dataSub, .header__itemSub {
+	flex: 1 1 9%;
+	text-align:center;
+}
+
+.table-dataMod, .header__itemMod {
+	flex: 1 1 2%;
+	text-align:center;
+}
+
+.table-data, .header__item {
+	flex: 1 1 40%;
+	text-align:center;
+  text-transform:capitalize;
+}
+
+.filter__link {
+	color:white;
+	text-decoration: none;
+	position:relative;
+	display:inline-block;
+	padding-left:24px;
+	padding-right:24px;
+}
+
+.svg-head-table {
+  fill: var(--color5);
+ }
+
+.svg-table {
+  width: 15px;
+  height: 15px;
+  align-content: center;
+  fill: var(--color1);
+ }
